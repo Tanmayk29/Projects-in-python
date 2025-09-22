@@ -1,11 +1,29 @@
 def calculator():
     num1=int(input("Enter the First number:"))
     num2=int(input("Enter the second number:"))
-    print("What operation you want to perform")
-    print("Addition = 1 \n subtraction = 2 \n division = 3 \n multiplication = 4")
-    choice =int(input("enter choice (1,2,3,4) :"))
+    print("Operations:")
+    print("1. Add (+)")
+    print("2. Subtract (-)")
+    print("3. Multiply (*)")
+    print("4. Divide (/)")
+    choice =int(input("enter choice (1,2,3,4):"))
 
     if choice==1:
-        c = num1+num2
-        print(f"And the Addition is :{c}")
-        pass
+        result = num1+num2
+    elif choice==2:
+        result = num1-num2
+    elif choice==3:
+        result = num1*num2
+    elif choice==4:
+        if num2!=0:
+            result=num1/num2
+        else:
+            print("ERROR!!!!,Pls enter proper number")
+            return
+    else:
+        print("OPERATION is Invalid!!")
+        return
+    print(f"THE Answer is :{result}")
+    
+
+calculator()
