@@ -1,6 +1,6 @@
-🐍💧🔫 Snake Water Gun - Console Game in Python
+# 🐍💧🔫 Snake Water Gun Game in Python
 
-This is a simple Python-based console game inspired by the classic Snake-Water-Gun. The game pits the player against the computer in a series of rounds where each participant picks one of the following:
+This is a simple Python-based console game inspired by the classic Snake-Water-Gun. The game puts the player against the computer in a series of rounds where each participant picks one of the following:
 
 🐍 Snake (S)
 
